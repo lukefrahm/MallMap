@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mall Map</title>
+		<link rel="stylesheet" type="text/css" href="css/mall.css" /> <!-- must load CSS before any scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/jquery-1.11.3.js"> </script> <!-- must load jQuery script before personal JS -->
+		<script src="js/mall.js"> </script>
+	</head>
+	<body>
+		<div id="page">
+			<noscript>
+				<div id="noJavascript"><em>In order to view this page properly, you must have JavaScript enabled</em></div>
+			</noscript>
+			<h1>Try Our Interactive Map!</h1>
+            <div id="mallMap">
+                <div id="descriptions">
+                    <h4>Welcome to the mall</h4>
+                    <img store="st00" width="75" height="75" src="" />
+                    <img store="st01" width="75" height="75" src="images/departmental_store_icon.jpg" />
+                    <img store="st02" width="75" height="75" src="images/mens_wear.jpg" />
+                    <img store="st03" width="75" height="75" src="images/shoe_store.jpg" />
+                    <img store="st04" width="75" height="75" src="images/shoe_store.jpg" />
+                    <img store="st05" width="75" height="75" src="images/book_store.jpg" />
+                    <img store="st06" width="75" height="75" src="images/shoe_store.jpg" />
+                    <img store="st07" width="75" height="75" src="images/mens_wear.jpg" />
+                    <img store="st08" width="75" height="75" src="images/womens_wear.jpg" />
+                    <img store="st09" width="75" height="75" src="images/toy_store.jpg" />
+                    <img store="st10" width="75" height="75" src="images/womens_wear.jpg" />
+                    <img store="st11" width="75" height="75" src="images/womens_wear.jpg" />
+                    <img store="st12" width="75" height="75" src="images/departmental_store_icon.jpg" />
+                    <img store="st13" width="75" height="75" src="images/shoe_store.jpg" />
+                    <img store="st14" width="75" height="75" src="images/womens_wear.jpg" />
+                    <img store="st15" width="75" height="75" src="images/shoe_store.jpg" />
+                    <img store="st16" width="75" height="75" src="images/shoe_store.jpg" />
+                    <img store="st17" width="75" height="75" src="images/mens_wear.jpg" />
+                    <img store="st18" width="75" height="75" src="images/womens_wear.jpg" />
+                    <img store="st19" width="75" height="75" src="images/womens_wear.jpg" />
+                    <img store="st20" width="75" height="75" src="images/departmental_store_icon.jpg" />
+                    <img store="st21" width="75" height="75" src="images/toy_store.jpg" />
+                    <img store="st22" width="75" height="75" src="images/womens_wear.jpg" />
+                    <img store="st23" width="75" height="75" src="images/book_store.jpg" />
+                    <img store="st24" width="75" height="75" src="images/mens_wear.jpg" />
+                    <img store="st25" width="75" height="75" src="images/food_court.jpg" />
+                    <img store="st26" width="75" height="75" src="images/food_court.jpg" />
+                    <img store="st27" width="75" height="75" src="images/food_court.jpg" />
+                    <img store="st28" width="75" height="75" src="images/food_court.jpg" />
+                    <img store="st29" width="75" height="75" src="images/food_court.jpg" />
+                    <img store="st30" width="75" height="75" src="images/food_court.jpg" />
+                    <img store="st31" width="75" height="75" src="images/departmental_store_icon.jpg" />
+                    <img store="st32" width="75" height="75" src="images/womens_wear.jpg" />
+                    <img store="st33" width="75" height="75" src="images/toy_store.jpg" />
+                    <img store="st34" width="75" height="75" src="images/book_store.jpg" />
+                    <img store="st35" width="75" height="75" src="images/womens_wear.jpg" />
+                    <img store="st36" width="75" height="75" src="images/shoe_store.jpg" />
+                    <p store="st00">Description of the store goes here</p>
+                    <p store="st01">This is the description for Department Store 1</p>
+                    <p store="st02">This is the description for Men's Wear 1</p>
+                    <p store="st03">This is the description for Shoe Store 1</p>
+                    <p store="st04">This is the description for Shoe Store 2</p>
+                    <p store="st05">This is the description for Book Store 1</p>
+                    <p store="st06">This is the description for Shoe Store 3</p>
+                    <p store="st07">This is the description for Men's Wear 2</p>
+                    <p store="st08">This is the description for Women's Wear 1</p>
+                    <p store="st09">This is the description for Toy Store 1</p>
+                    <p store="st10">This is the description for Women's Wear 2</p>
+                    <p store="st11">This is the description for Women's Wear 3</p>
+                    <p store="st12">This is the description for Department Store 2</p>
+                    <p store="st13">This is the description for Shoe Store 4</p>
+                    <p store="st14">This is the description for Women's Wear 4</p>
+                    <p store="st15">This is the description for Shoe Store 5</p>
+                    <p store="st16">This is the description for Shoe Store 6</p>
+                    <p store="st17">This is the description for Men's Wear 3</p>
+                    <p store="st18">This is the description for Women's Wear 5</p>
+                    <p store="st19">This is the description for Women's Wear 6</p>
+                    <p store="st20">This is the description for Department Store 3</p>
+                    <p store="st21">This is the description for Toy Store 2</p>
+                    <p store="st22">This is the description for Women's Wear 7</p>
+                    <p store="st23">This is the description for Book Store 2</p>
+                    <p store="st24">This is the description for Men's Wear 4</p>
+                    <p store="st25">This is the description for Food Court 1</p>
+                    <p store="st26">This is the description for Food Court 2</p>
+                    <p store="st27">This is the description for Food Court 3</p>
+                    <p store="st28">This is the description for Food Court 4</p>
+                    <p store="st29">This is the description for Food Court 5</p>
+                    <p store="st30">This is the description for Food Court 6</p>
+                    <p store="st31">This is the description for Department Store 4</p>
+                    <p store="st32">This is the description for Women's Wear 8</p>
+                    <p store="st33">This is the description for Toy Store 3</p>
+                    <p store="st34">This is the description for Book Store 3</p>
+                    <p store="st35">This is the description for Women's Wear 9</p>
+                    <p store="st36">This is the description for Shoe Store 7</p>
+                    <p cat="ds">Department Stores</p>
+                    <p cat="mw">Men's Wear</p>
+                    <p cat="ss">Shoe Stores</p>
+                    <p cat="ts">Toy Stores</p>
+                    <p cat="fc">Food Court</p>
+                    <p cat="bs">Book Stores</p>
+                    <p cat="ww">Women's Wear</p>
+                    <p cat="sa">All Stores</p>
+                </div>
+                
+                <a class="dot" style="left: 135px; top: 160px;" cat="ds" store="st01"></a>
+                <a class="dot" style="left: 133px; top: 213px;" cat="mw" store="st02"></a>
+                <a class="dot" style="left: 154px; top: 233px;" cat="ss" store="st03"></a>
+                <a class="dot" style="left: 177px; top: 254px;" cat="ss" store="st04"></a>
+                <a class="dot" style="left: 199px; top: 276px;" cat="bs" store="st05"></a>
+                <a class="dot" style="left: 221px; top: 298px;" cat="ss" store="st06"></a>
+                <a class="dot" style="left: 238px; top: 338px;" cat="mw" store="st07"></a>
+                <a class="dot" style="left: 213px; top: 358px;" cat="ww" store="st08"></a>
+                <a class="dot" style="left: 192px; top: 383px;" cat="ts" store="st09"></a>
+                <a class="dot" style="left: 170px; top: 405px;" cat="ww" store="st10"></a>
+                <a class="dot" style="left: 147px; top: 429px;" cat="ww" store="st11"></a>
+                <a class="dot" style="left: 145px; top: 478px;" cat="ds" store="st12"></a>
+                <a class="dot" style="left: 195px; top: 482px;" cat="ss" store="st13"></a>
+                <a class="dot" style="left: 217px; top: 455px;" cat="ww" store="st14"></a>
+                <a class="dot" style="left: 241px; top: 422px;" cat="ss" store="st15"></a>
+                <a class="dot" style="left: 263px; top: 448px;" cat="ss" store="st16"></a>
+                <a class="dot" style="left: 286px; top: 472px;" cat="mw" store="st17"></a>
+                <a class="dot" style="left: 307px; top: 491px;" cat="ww" store="st18"></a>
+                <a class="dot" style="left: 330px; top: 511px;" cat="ww" store="st19"></a>
+                <a class="dot" style="left: 384px; top: 518px;" cat="ds" store="st20"></a>
+                <a class="dot" style="left: 379px; top: 470px;" cat="ts" store="st21"></a>
+                <a class="dot" style="left: 355px; top: 447px;" cat="ww" store="st22"></a>
+                <a class="dot" style="left: 331px; top: 425px;" cat="bs" store="st23"></a>
+                <a class="dot" style="left: 288px; top: 398px;" cat="mw" store="st24"></a>
+                <a class="dot" style="left: 298px; top: 370px;" cat="fc" store="st25"></a>
+                <a class="dot" style="left: 330px; top: 381px;" cat="fc" store="st26"></a>
+                <a class="dot" style="left: 362px; top: 371px;" cat="fc" store="st27"></a>
+                <a class="dot" style="left: 366px; top: 337px;" cat="fc" store="st28"></a>
+                <a class="dot" style="left: 359px; top: 309px;" cat="fc" store="st29"></a>
+                <a class="dot" style="left: 355px; top: 278px;" cat="fc" store="st30"></a>
+                <a class="dot" style="left: 331px; top: 235px;" cat="ds" store="st31"></a>
+                <a class="dot" style="left: 281px; top: 263px;" cat="ww" store="st32"></a>
+                <a class="dot" style="left: 258px; top: 240px;" cat="ts" store="st33"></a>
+                <a class="dot" style="left: 236px; top: 219px;" cat="bs" store="st34"></a>
+                <a class="dot" style="left: 213px; top: 193px;" cat="ww" store="st35"></a>
+                <a class="dot" style="left: 191px; top: 172px;" cat="ss" store="st36"></a>
+                
+                <div id="catForm">
+                    <h5>Show me:</h5>
+                    <form id="categories">
+                        <select>
+                            <option value="sa" selected="selected">All Stores</option>
+                            <option value="ds">Department Stores</option>
+                            <option value="mw">Men's Wear</option>
+                            <option value="ss">Shoe Stores</option>
+                            <option value="ts">Toy Stores</option>
+                            <option value="fc">Food Court</option>
+                            <option value="bs">Book Stores</option>
+                            <option value="ww">Women's Wear</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>

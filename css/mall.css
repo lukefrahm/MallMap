@@ -1,0 +1,76 @@
+body {
+    background-color: tan;
+    font-family: Verdana, sans-serif;
+}
+
+#page {
+    height: 630px;
+    width: 470px;
+}
+
+#page h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#mallMap {
+    height: 630px;
+    width: 470px;
+    background-image: url(../images/mallmap.jpg);
+    position: relative;
+}
+
+#mallMap a.dot {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/lightbar.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    cursor: pointer;
+}
+
+#mallMap a.dot:hover {
+    background-position: 0px -25px;
+}
+
+#mallMap a.dot.selected {
+    background-position: 0px -50px;
+}
+
+#descriptions {
+    width: 212px;
+    height: 138px;
+    position: absolute;
+    left: 238px;
+    top: 24px;
+}
+
+#descriptions img {
+    border: thin black solid;
+    float: right;
+    margin-top: 15px;
+}
+
+#descriptions h4 {
+    margin: 0px 0px 5px 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#catForm {
+    position: absolute;
+    left: 212px;
+    top: 568px;
+}
+
+#catForm h5 {
+    margin: 0px;
+    padding: 0px 0px 5px 0px;
+    text-align: center;
+}
+
+#descriptions p {
+    
+}
